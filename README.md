@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# Web Widget 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Semantic Release Status](https://github.com/amalv/bukie/actions/workflows/release.yml/badge.svg)
+![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Bun](https://img.shields.io/badge/bun-282a36?style=flat-square&logo=bun&logoColor=fbf0df)
+![Biome](https://img.shields.io/badge/Biome-45ba4b?style=flat-square&logo=Biome&logoColor=white)
 
-Currently, two official plugins are available:
+This template provides a minimal setup to get React working in Vite with TypeScript, Bun, Biome and Semantic Release.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+🚀 Built with [TypeScript](https://www.typescriptlang.org/) and [React](https://react.dev/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🔧 Code linting and formatting with [Biome](https://biomejs.dev/)
 
-- Configure the top-level `parserOptions` property like this:
+🚦 Automated versioning and releases with [Semantic Release](https://semantic-release.gitbook.io/semantic-release/)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+🚀 Fast development and build times with [Vite](https://vitejs.dev/)
+
+📦 Fast and reliable package management with [Bun](https://bun.sh)
+
+## Getting Started
+
+Clone the repository:
+
+```sh
+git clone git@github.com:amalv/web-widget.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Install the dependencies:
+
+```sh
+bun install
+```
+
+Start the development server:
+
+```sh
+bun run dev
+```
+
+### License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
