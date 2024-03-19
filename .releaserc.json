@@ -7,5 +7,5 @@
 		"@semantic-release/git"
 	],
 	"branches": ["main"],
-	"repositoryUrl": "git@github.com:amalv/bukie.git"
+	"repositoryUrl": "git@github.com:amalv/web-widget.git"
 }
