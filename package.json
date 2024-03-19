@@ -16,9 +16,12 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.6.1",
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/git": "^10.0.1",
 		"@types/react": "^18.2.64",
 		"@types/react-dom": "^18.2.21",
 		"@vitejs/plugin-react": "^4.2.1",
+		"semantic-release": "^23.0.5",
 		"typescript": "^5.2.2",
 		"vite": "^5.1.6"
 	}
