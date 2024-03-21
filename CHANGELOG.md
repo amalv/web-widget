@@ -3,6 +3,14 @@
 
 ### Features
 
+* install lefthook for managing pre-commit hooks ([dcb2fa3](https://github.com/amalv/web-widget/commit/dcb2fa3046a718f67a75174407a587b07c8b8c76))
+* **testing:** setup Vitest and related dependencies ([82326bd](https://github.com/amalv/web-widget/commit/82326bd047e4f0eec50dfd113faffb26e91dd1fc))
+
+# [1.1.0](https://github.com/amalv/web-widget/compare/v1.0.0...v1.1.0) (2024-03-21)
+
+
+### Features
+
 * **testing:** setup Vitest and related dependencies ([82326bd](https://github.com/amalv/web-widget/commit/82326bd047e4f0eec50dfd113faffb26e91dd1fc))
 
 # 1.0.0 (2024-03-19)
