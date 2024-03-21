@@ -1,0 +1,12 @@
+pre-commit:
+  parallel: true
+  commands:
+    biome:
+      run: bun run biome check --apply {staged_files}
+    tests:
+      glob: "*test.{ts,tsx}"
+      run: bun run test --run {staged_files}
+commit-msg:
+  commands:
+    "lint commit message":
+      run: bun run commitlint --edit {1}
