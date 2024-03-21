@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/amalv/web-widget/compare/v1.1.0...v1.2.0) (2024-03-21)
+
+
+### Features
+
+* **linting:** setup commitlint for enforcing commit message guidelines ([448d296](https://github.com/amalv/web-widget/commit/448d296cdc7839ddced4ac7699b43215c38125e3))
+
 # [1.1.0](https://github.com/amalv/web-widget/compare/v1.0.0...v1.1.0) (2024-03-21)
 
 
