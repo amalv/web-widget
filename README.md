@@ -1,4 +1,4 @@
-# Web Widget 
+# Web Widget
 
 ![Semantic Release Status](https://github.com/amalv/bukie/actions/workflows/release.yml/badge.svg)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
@@ -20,6 +20,8 @@ This template provides a minimal setup to get React working in Vite with TypeScr
 🚀 Fast development and build times with [Vite](https://vitejs.dev/)
 
 📦 Fast and reliable package management with [Bun](https://bun.sh)
+
+🔗 Pre-commit hooks management with [Lefthook](https://github.com/evilmartians/lefthook)
 
 ## Getting Started
 
