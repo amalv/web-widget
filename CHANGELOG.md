@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/amalv/web-widget/compare/v1.2.0...v1.3.0) (2024-03-23)
+
+
+### Features
+
+* add Lefthook for commit message linting, biome checks and tests ([4382467](https://github.com/amalv/web-widget/commit/43824678e59fb00f9e7a64d64c9946a25667c0fd))
+
 # [1.2.0](https://github.com/amalv/web-widget/compare/v1.1.0...v1.2.0) (2024-03-21)
 
 
